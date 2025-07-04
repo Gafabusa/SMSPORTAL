@@ -1,0 +1,186 @@
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\SMSPORTALAPI.dll.config
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\SMSPORTALAPI.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\SMSPORTALAPI.pdb
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\csc.exe
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\csc.exe.config
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\csc.rsp
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\csi.exe
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\csi.exe.config
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\csi.rsp
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.AppContext.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Console.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.IO.Compression.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Net.Http.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Net.Sockets.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.ValueTuple.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\vbc.exe
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\vbc.exe.config
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\vbc.rsp
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\obj\Debug\SMSPORTALAPI.csproj.AssemblyReference.cache
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\obj\Debug\SMSPORTALAPI.csproj.CoreCompileInputs.cache
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\obj\Debug\SMSPORTA.69ED9EAA.Up2Date
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\obj\Debug\SMSPORTALAPI.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\obj\Debug\SMSPORTALAPI.pdb
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\SmsPortalClassLibrary.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\SmsPortalClassLibrary.pdb
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\log4net.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Logging.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Options.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\System.Buffers.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\System.ComponentModel.Annotations.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\System.Memory.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\System.Numerics.Vectors.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\log4net.xml
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Logging.xml
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Options.xml
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\System.Buffers.xml
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\System.Memory.xml
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\System.Numerics.Vectors.xml
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\SMSPORTALAPI.dll.config
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\SMSPORTALAPI.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\SMSPORTALAPI.pdb
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\csc.exe
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\csc.exe.config
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\csc.rsp
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\csi.exe
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\csi.exe.config
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\csi.rsp
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.AppContext.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Console.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.IO.Compression.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Net.Http.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.ValueTuple.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\vbc.exe
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\vbc.exe.config
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\vbc.rsp
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\log4net.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Logging.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Options.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\SmsPortalClassLibrary.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\System.Buffers.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\System.ComponentModel.Annotations.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\System.Memory.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\System.Numerics.Vectors.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\SmsPortalClassLibrary.pdb
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\log4net.xml
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Logging.xml
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Options.xml
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\System.Buffers.xml
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\System.Memory.xml
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\System.Numerics.Vectors.xml
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\obj\Debug\SMSPORTALAPI.csproj.AssemblyReference.cache
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\obj\Debug\SMSPORTALAPI.csproj.CoreCompileInputs.cache
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\obj\Debug\SMSPORTA.69ED9EAA.Up2Date
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\obj\Debug\SMSPORTALAPI.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\obj\Debug\SMSPORTALAPI.pdb

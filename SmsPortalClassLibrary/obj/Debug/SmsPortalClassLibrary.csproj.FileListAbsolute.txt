@@ -1,0 +1,22 @@
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SmsPortalClassLibrary\bin\Debug\SmsPortalClassLibrary.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SmsPortalClassLibrary\bin\Debug\SmsPortalClassLibrary.pdb
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SmsPortalClassLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SmsPortalClassLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SmsPortalClassLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SmsPortalClassLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SmsPortalClassLibrary\obj\Debug\SmsPortalClassLibrary.csproj.AssemblyReference.cache
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SmsPortalClassLibrary\obj\Debug\SmsPortalClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SmsPortalClassLibrary\obj\Debug\SmsPorta.56C9E389.Up2Date
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SmsPortalClassLibrary\obj\Debug\SmsPortalClassLibrary.dll
+C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SmsPortalClassLibrary\obj\Debug\SmsPortalClassLibrary.pdb
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SmsPortalClassLibrary\bin\Debug\SmsPortalClassLibrary.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SmsPortalClassLibrary\bin\Debug\SmsPortalClassLibrary.pdb
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SmsPortalClassLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SmsPortalClassLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SmsPortalClassLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SmsPortalClassLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SmsPortalClassLibrary\obj\Debug\SmsPortalClassLibrary.csproj.AssemblyReference.cache
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SmsPortalClassLibrary\obj\Debug\SmsPortalClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SmsPortalClassLibrary\obj\Debug\SmsPorta.56C9E389.Up2Date
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SmsPortalClassLibrary\obj\Debug\SmsPortalClassLibrary.dll
+C:\Users\Willy Gafabusa\Desktop\SMSPORTAL\SMSPORTALAPI\SmsPortalClassLibrary\obj\Debug\SmsPortalClassLibrary.pdb
