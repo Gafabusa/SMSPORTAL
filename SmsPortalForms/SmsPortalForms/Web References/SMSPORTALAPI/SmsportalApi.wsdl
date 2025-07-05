@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://smsportalapi.com/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://smsportalapi.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://smsportalapi.com/">
+      <s:element name="LoginSystemOperator">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="passwordHash" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginSystemOperatorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginSystemOperatorResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="sp_CreateVendorAdmin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="vendorName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="sp_CreateVendorAdminResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="LoginVendorAdmin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="passwordHash" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginVendorAdminResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginVendorAdminResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateVendorUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="vendorName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="passwordHash" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateVendorUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateVendorUserResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidateVendorUserByEmail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="passwordHash" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidateVendorUserByEmailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ValidateVendorUserByEmailResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllVendorAdmins">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllVendorAdminsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllVendorAdminsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteVendorAdmin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="vendorId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteVendorAdminResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="UnlockVendorAdmin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="vendorId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UnlockVendorAdminResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetVendorAdminById">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="vendorId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetVendorAdminByIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetVendorAdminByIdResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateVendorAdmin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="vendorId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="vendorName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateVendorAdminResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="LoginSystemOperatorSoapIn">
+    <wsdl:part name="parameters" element="tns:LoginSystemOperator" />
+  </wsdl:message>
+  <wsdl:message name="LoginSystemOperatorSoapOut">
+    <wsdl:part name="parameters" element="tns:LoginSystemOperatorResponse" />
+  </wsdl:message>
+  <wsdl:message name="sp_CreateVendorAdminSoapIn">
+    <wsdl:part name="parameters" element="tns:sp_CreateVendorAdmin" />
+  </wsdl:message>
+  <wsdl:message name="sp_CreateVendorAdminSoapOut">
+    <wsdl:part name="parameters" element="tns:sp_CreateVendorAdminResponse" />
+  </wsdl:message>
+  <wsdl:message name="LoginVendorAdminSoapIn">
+    <wsdl:part name="parameters" element="tns:LoginVendorAdmin" />
+  </wsdl:message>
+  <wsdl:message name="LoginVendorAdminSoapOut">
+    <wsdl:part name="parameters" element="tns:LoginVendorAdminResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateVendorUserSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateVendorUser" />
+  </wsdl:message>
+  <wsdl:message name="CreateVendorUserSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateVendorUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="ValidateVendorUserByEmailSoapIn">
+    <wsdl:part name="parameters" element="tns:ValidateVendorUserByEmail" />
+  </wsdl:message>
+  <wsdl:message name="ValidateVendorUserByEmailSoapOut">
+    <wsdl:part name="parameters" element="tns:ValidateVendorUserByEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllVendorAdminsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllVendorAdmins" />
+  </wsdl:message>
+  <wsdl:message name="GetAllVendorAdminsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllVendorAdminsResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteVendorAdminSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteVendorAdmin" />
+  </wsdl:message>
+  <wsdl:message name="DeleteVendorAdminSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteVendorAdminResponse" />
+  </wsdl:message>
+  <wsdl:message name="UnlockVendorAdminSoapIn">
+    <wsdl:part name="parameters" element="tns:UnlockVendorAdmin" />
+  </wsdl:message>
+  <wsdl:message name="UnlockVendorAdminSoapOut">
+    <wsdl:part name="parameters" element="tns:UnlockVendorAdminResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetVendorAdminByIdSoapIn">
+    <wsdl:part name="parameters" element="tns:GetVendorAdminById" />
+  </wsdl:message>
+  <wsdl:message name="GetVendorAdminByIdSoapOut">
+    <wsdl:part name="parameters" element="tns:GetVendorAdminByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateVendorAdminSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateVendorAdmin" />
+  </wsdl:message>
+  <wsdl:message name="UpdateVendorAdminSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateVendorAdminResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SmsportalApiSoap">
+    <wsdl:operation name="LoginSystemOperator">
+      <wsdl:input message="tns:LoginSystemOperatorSoapIn" />
+      <wsdl:output message="tns:LoginSystemOperatorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="sp_CreateVendorAdmin">
+      <wsdl:input message="tns:sp_CreateVendorAdminSoapIn" />
+      <wsdl:output message="tns:sp_CreateVendorAdminSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LoginVendorAdmin">
+      <wsdl:input message="tns:LoginVendorAdminSoapIn" />
+      <wsdl:output message="tns:LoginVendorAdminSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateVendorUser">
+      <wsdl:input message="tns:CreateVendorUserSoapIn" />
+      <wsdl:output message="tns:CreateVendorUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateVendorUserByEmail">
+      <wsdl:input message="tns:ValidateVendorUserByEmailSoapIn" />
+      <wsdl:output message="tns:ValidateVendorUserByEmailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllVendorAdmins">
+      <wsdl:input message="tns:GetAllVendorAdminsSoapIn" />
+      <wsdl:output message="tns:GetAllVendorAdminsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteVendorAdmin">
+      <wsdl:input message="tns:DeleteVendorAdminSoapIn" />
+      <wsdl:output message="tns:DeleteVendorAdminSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UnlockVendorAdmin">
+      <wsdl:input message="tns:UnlockVendorAdminSoapIn" />
+      <wsdl:output message="tns:UnlockVendorAdminSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVendorAdminById">
+      <wsdl:input message="tns:GetVendorAdminByIdSoapIn" />
+      <wsdl:output message="tns:GetVendorAdminByIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateVendorAdmin">
+      <wsdl:input message="tns:UpdateVendorAdminSoapIn" />
+      <wsdl:output message="tns:UpdateVendorAdminSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SmsportalApiSoap" type="tns:SmsportalApiSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="LoginSystemOperator">
+      <soap:operation soapAction="http://smsportalapi.com/LoginSystemOperator" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="sp_CreateVendorAdmin">
+      <soap:operation soapAction="http://smsportalapi.com/sp_CreateVendorAdmin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginVendorAdmin">
+      <soap:operation soapAction="http://smsportalapi.com/LoginVendorAdmin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateVendorUser">
+      <soap:operation soapAction="http://smsportalapi.com/CreateVendorUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateVendorUserByEmail">
+      <soap:operation soapAction="http://smsportalapi.com/ValidateVendorUserByEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllVendorAdmins">
+      <soap:operation soapAction="http://smsportalapi.com/GetAllVendorAdmins" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteVendorAdmin">
+      <soap:operation soapAction="http://smsportalapi.com/DeleteVendorAdmin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnlockVendorAdmin">
+      <soap:operation soapAction="http://smsportalapi.com/UnlockVendorAdmin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVendorAdminById">
+      <soap:operation soapAction="http://smsportalapi.com/GetVendorAdminById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateVendorAdmin">
+      <soap:operation soapAction="http://smsportalapi.com/UpdateVendorAdmin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SmsportalApiSoap12" type="tns:SmsportalApiSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="LoginSystemOperator">
+      <soap12:operation soapAction="http://smsportalapi.com/LoginSystemOperator" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="sp_CreateVendorAdmin">
+      <soap12:operation soapAction="http://smsportalapi.com/sp_CreateVendorAdmin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginVendorAdmin">
+      <soap12:operation soapAction="http://smsportalapi.com/LoginVendorAdmin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateVendorUser">
+      <soap12:operation soapAction="http://smsportalapi.com/CreateVendorUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateVendorUserByEmail">
+      <soap12:operation soapAction="http://smsportalapi.com/ValidateVendorUserByEmail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllVendorAdmins">
+      <soap12:operation soapAction="http://smsportalapi.com/GetAllVendorAdmins" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteVendorAdmin">
+      <soap12:operation soapAction="http://smsportalapi.com/DeleteVendorAdmin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnlockVendorAdmin">
+      <soap12:operation soapAction="http://smsportalapi.com/UnlockVendorAdmin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVendorAdminById">
+      <soap12:operation soapAction="http://smsportalapi.com/GetVendorAdminById" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateVendorAdmin">
+      <soap12:operation soapAction="http://smsportalapi.com/UpdateVendorAdmin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SmsportalApi">
+    <wsdl:port name="SmsportalApiSoap" binding="tns:SmsportalApiSoap">
+      <soap:address location="https://localhost:44307/SmsportalApi.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SmsportalApiSoap12" binding="tns:SmsportalApiSoap12">
+      <soap12:address location="https://localhost:44307/SmsportalApi.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

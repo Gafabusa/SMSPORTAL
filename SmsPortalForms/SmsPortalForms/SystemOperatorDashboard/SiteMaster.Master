@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMaster.master.cs" Inherits="SmsPortalForms.SystemOperatorDashboard.SiteMaster" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>System Operator Dashboard</title>
+    <link href="/SystemOperatorDashboard/dashboard-styles.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Header -->
+        <div class="header">
+            <h1>System Operator Dashboard</h1>
+            <div class="header-buttons">
+   <span class="welcome-text">Welcome <asp:Label ID="lblOperator" runat="server" /></span>
+  <asp:Button ID="btnOpenModal" runat="server" Text="+ Create Vendor" CssClass="btn btn-create"
+    OnClientClick="openVendorModal(); return false;" UseSubmitBehavior="false" />
+     <asp:Button ID="btnLogout" runat="server" Text="Logout" OnClick="btnLogout_Click"
+       CssClass="btn btn-logout" UseSubmitBehavior="true" CausesValidation="false" />
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+ <a href="/SystemOperatorDashboard/OperatorDashboard.aspx" class="sidebar-item">Dashboard</a>
+<a href="/SystemOperatorDashboard/ManageVendors/ViewVendorAdmins.aspx" class="sidebar-item">Vendor Management</a>
+    <a href="#" class="sidebar-item">User Management</a>
+      <a href="#" class="sidebar-item">SMS Analytics</a>
+            <a href="#" class="sidebar-item">System Settings</a>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+    </form>
+
+    <script>
+        function loadContent(url) {
+            fetch(url)
+                .then(response => response.text())
+                .then(html => {
+                    const parser = new DOMParser();
+                    const doc = parser.parseFromString(html, 'text/html');
+                    const content = doc.querySelector('#mainInnerContent'); // Target the content
+                    document.querySelector('.main-content').innerHTML = content ? content.innerHTML : 'Page not found';
+                })
+                .catch(error => console.error('Load error', error));
+        }
+    </script>
+</body>
+</html>

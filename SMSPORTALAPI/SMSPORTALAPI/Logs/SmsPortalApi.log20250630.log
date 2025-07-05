@@ -1,0 +1,22 @@
+2025-06-30 04:57:06,619 [9] INFO  SMSPORTALAPI.SmsportalApi - Starting sp_CreateVendorAdmin for vendorName=DFCU, email=dfcu@gmail.com
+2025-06-30 04:57:06,725 [9] ERROR SMSPORTALAPI.SmsportalApi - Error in sp_CreateVendorAdmin for email=dfcu@gmail.com
+System.InvalidOperationException: Database provider factory not set for the static DatabaseFactory. Set a provider factory invoking the DatabaseFactory.SetProviderFactory method or by specifying custom mappings by calling the DatabaseFactory.SetDatabases method.
+   at Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.GetCreateDatabase()
+   at Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase(String name)
+   at SmsPortalClassLibrary.ControlObjects.BusinessLogic.CreateVendorAdmin(String vendorName, String email, Byte[] passwordHash) in C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SmsPortalClassLibrary\ControlObjects\BusinessLogic.cs:line 129
+   at SMSPORTALAPI.SmsportalApi.sp_CreateVendorAdmin(String vendorName, String email, String password) in C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\SmsportalApi.asmx.cs:line 194
+2025-06-30 04:59:31,980 [9] INFO  SMSPORTALAPI.SmsportalApi - Starting sp_CreateVendorAdmin for vendorName=DFCU, email=dfcu@gmail.com
+2025-06-30 05:02:56,978 [9] ERROR SMSPORTALAPI.SmsportalApi - Error in sp_CreateVendorAdmin for email=dfcu@gmail.com
+System.InvalidOperationException: Database provider factory not set for the static DatabaseFactory. Set a provider factory invoking the DatabaseFactory.SetProviderFactory method or by specifying custom mappings by calling the DatabaseFactory.SetDatabases method.
+   at Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.GetCreateDatabase()
+   at Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase(String name)
+   at SmsPortalClassLibrary.ControlObjects.BusinessLogic.CreateVendorAdmin(String vendorName, String email, Byte[] passwordHash) in C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SmsPortalClassLibrary\ControlObjects\BusinessLogic.cs:line 129
+   at SMSPORTALAPI.SmsportalApi.sp_CreateVendorAdmin(String vendorName, String email, String password) in C:\Users\WillyTech\Desktop\SMSPORTAL\SMSPORTALAPI\SMSPORTALAPI\SmsportalApi.asmx.cs:line 194
+2025-06-30 05:05:52,902 [9] INFO  SMSPORTALAPI.SmsportalApi - Starting sp_CreateVendorAdmin for vendorName=DFCU, email=dfcu@gmail.com
+2025-06-30 05:05:53,095 [9] INFO  SMSPORTALAPI.SmsportalApi - sp_CreateVendorAdmin result: Vendor admin created successfully.
+2025-06-30 08:43:45,530 [19] INFO  SMSPORTALAPI.SmsportalApi - Starting sp_CreateVendorAdmin for vendorName=DFCU, email=dfcu@gmail.com
+2025-06-30 08:43:45,563 [19] INFO  SMSPORTALAPI.SmsportalApi - sp_CreateVendorAdmin result: Vendor admin created successfully.
+2025-06-30 10:40:37,864 [22] INFO  SMSPORTALAPI.SmsportalApi - Starting sp_CreateVendorAdmin for vendorName=DFCU, email=dfcu@gmail.com
+2025-06-30 10:40:37,894 [22] INFO  SMSPORTALAPI.SmsportalApi - sp_CreateVendorAdmin result: Vendor admin created successfully.
+2025-06-30 16:38:44,754 [18] INFO  SMSPORTALAPI.SmsportalApi - Starting sp_CreateVendorAdmin for vendorName=Stanbic, email=stanbic@gmail.com
+2025-06-30 16:38:44,820 [18] INFO  SMSPORTALAPI.SmsportalApi - sp_CreateVendorAdmin result: Vendor admin created successfully.
