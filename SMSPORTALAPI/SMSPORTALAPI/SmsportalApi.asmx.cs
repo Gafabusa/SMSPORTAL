@@ -109,13 +109,26 @@ namespace SMSPORTALAPI
         {
             logic.UpdateVendorAdmin(vendorId, vendorName, userName, email);
         }
+        // Check for duplicate vendor admin email and username
+        [WebMethod]
+        public string CheckDuplicateVendorAdmin(string vendorName, string email)
+        {
+            return logic.CheckDuplicateVendor(vendorName, email);
+        }
+        // Check for duplicate vendor user email and username
+        [WebMethod]
+        public string CheckDuplicateVendorUser(string username, string email)
+        {
+            return logic.CheckDuplicateVendorUser(username, email);
+        }
+
 
         private static byte[] ComputeHash(string input)
         {
             using (SHA256 sha = SHA256.Create())
             {
                 return sha.ComputeHash(Encoding.UTF8.GetBytes(input));
-            }
+            } 
         }
-    }
+    } 
 }

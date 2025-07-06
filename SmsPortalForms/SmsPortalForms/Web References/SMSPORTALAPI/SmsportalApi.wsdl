@@ -169,6 +169,21 @@
       <s:element name="UpdateVendorAdminResponse">
         <s:complexType />
       </s:element>
+      <s:element name="CheckDuplicateVendorAdmin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="vendorName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckDuplicateVendorAdminResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckDuplicateVendorAdminResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
     </s:schema>
   </wsdl:types>
   <wsdl:message name="LoginSystemOperatorSoapIn">
@@ -231,6 +246,12 @@
   <wsdl:message name="UpdateVendorAdminSoapOut">
     <wsdl:part name="parameters" element="tns:UpdateVendorAdminResponse" />
   </wsdl:message>
+  <wsdl:message name="CheckDuplicateVendorAdminSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckDuplicateVendorAdmin" />
+  </wsdl:message>
+  <wsdl:message name="CheckDuplicateVendorAdminSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckDuplicateVendorAdminResponse" />
+  </wsdl:message>
   <wsdl:portType name="SmsportalApiSoap">
     <wsdl:operation name="LoginSystemOperator">
       <wsdl:input message="tns:LoginSystemOperatorSoapIn" />
@@ -271,6 +292,10 @@
     <wsdl:operation name="UpdateVendorAdmin">
       <wsdl:input message="tns:UpdateVendorAdminSoapIn" />
       <wsdl:output message="tns:UpdateVendorAdminSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckDuplicateVendorAdmin">
+      <wsdl:input message="tns:CheckDuplicateVendorAdminSoapIn" />
+      <wsdl:output message="tns:CheckDuplicateVendorAdminSoapOut" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="SmsportalApiSoap" type="tns:SmsportalApiSoap">
@@ -365,6 +390,15 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="CheckDuplicateVendorAdmin">
+      <soap:operation soapAction="http://smsportalapi.com/CheckDuplicateVendorAdmin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
   </wsdl:binding>
   <wsdl:binding name="SmsportalApiSoap12" type="tns:SmsportalApiSoap">
     <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
@@ -451,6 +485,15 @@
     </wsdl:operation>
     <wsdl:operation name="UpdateVendorAdmin">
       <soap12:operation soapAction="http://smsportalapi.com/UpdateVendorAdmin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckDuplicateVendorAdmin">
+      <soap12:operation soapAction="http://smsportalapi.com/CheckDuplicateVendorAdmin" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>

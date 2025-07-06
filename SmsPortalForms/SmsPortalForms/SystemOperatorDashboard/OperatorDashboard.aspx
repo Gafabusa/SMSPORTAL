@@ -48,6 +48,7 @@
                         <asp:TextBox ID="txtPassword" runat="server" CssClass="form-input" TextMode="Password" placeholder="Enter password" />
                     </div>
                     <asp:HiddenField ID="hdnShowModal" runat="server" />
+                    <asp:Label ID="lblMessage" runat="server" CssClass="message-label" Font-Bold="true" />
                     <asp:Button ID="btnCreateVendorAdmin" runat="server" CssClass="btn-submit" Text="Create Vendor Admin" OnClick="btnCreateVendorAdmin_Click" />
                 </div>
             </div>
@@ -56,18 +57,27 @@
 
     <script type="text/javascript">
         function openVendorModal() {
-            document.getElementById('vendorModal').style.display = 'block';
+            var modal = document.getElementById('vendorModal');
+            modal.style.display = 'block';
         }
 
         function closeVendorModal() {
-            document.getElementById('vendorModal').style.display = 'none';
+            var modal = document.getElementById('vendorModal');
+            modal.style.display = 'none';
+
+            // Clear message and styles after fade-out
+            setTimeout(function () {
+                document.getElementById('<%= lblMessage.ClientID %>').textContent = '';
+            document.getElementById('<%= lblMessage.ClientID %>').className = 'message-label';
+        }, 500); // wait a bit after closing to clear
         }
 
         window.onclick = function (event) {
             var modal = document.getElementById('vendorModal');
             if (event.target == modal) {
-                modal.style.display = 'none';
+                closeVendorModal();
             }
         }
-    </script>
+</script>
+
 </asp:Content>

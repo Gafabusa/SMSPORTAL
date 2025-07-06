@@ -96,7 +96,7 @@
                             <h5>Selected Options:</h5>
                             <p><strong>SMS Type:</strong> <asp:Label ID="lblDisplaySmsType" runat="server" /></p>
                             <p><strong>Delivery Type:</strong> <asp:Label ID="lblDisplayDeliveryType" runat="server" /></p>
-                            <p><strong>Phone Number:</strong> <asp:Label ID="lblDisplayPhoneNumber" runat="server" /></p>
+                            
                             <div class="message-display">
                                 <strong>Message:</strong><br />
                                 <asp:Label ID="lblDisplayMessage" runat="server" CssClass="message-text" />

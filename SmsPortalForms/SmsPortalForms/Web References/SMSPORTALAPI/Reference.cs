@@ -24,7 +24,7 @@ namespace SmsPortalForms.SMSPORTALAPI {
     
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9037.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9032.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Web.Services.WebServiceBindingAttribute(Name="SmsportalApiSoap", Namespace="http://smsportalapi.com/")]
@@ -49,6 +49,8 @@ namespace SmsPortalForms.SMSPORTALAPI {
         private System.Threading.SendOrPostCallback GetVendorAdminByIdOperationCompleted;
         
         private System.Threading.SendOrPostCallback UpdateVendorAdminOperationCompleted;
+        
+        private System.Threading.SendOrPostCallback CheckDuplicateVendorAdminOperationCompleted;
         
         private bool useDefaultCredentialsSetExplicitly;
         
@@ -117,6 +119,9 @@ namespace SmsPortalForms.SMSPORTALAPI {
         
         /// <remarks/>
         public event UpdateVendorAdminCompletedEventHandler UpdateVendorAdminCompleted;
+        
+        /// <remarks/>
+        public event CheckDuplicateVendorAdminCompletedEventHandler CheckDuplicateVendorAdminCompleted;
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://smsportalapi.com/LoginSystemOperator", RequestNamespace="http://smsportalapi.com/", ResponseNamespace="http://smsportalapi.com/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
@@ -427,6 +432,37 @@ namespace SmsPortalForms.SMSPORTALAPI {
         }
         
         /// <remarks/>
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://smsportalapi.com/CheckDuplicateVendorAdmin", RequestNamespace="http://smsportalapi.com/", ResponseNamespace="http://smsportalapi.com/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        public string CheckDuplicateVendorAdmin(string vendorName, string email) {
+            object[] results = this.Invoke("CheckDuplicateVendorAdmin", new object[] {
+                        vendorName,
+                        email});
+            return ((string)(results[0]));
+        }
+        
+        /// <remarks/>
+        public void CheckDuplicateVendorAdminAsync(string vendorName, string email) {
+            this.CheckDuplicateVendorAdminAsync(vendorName, email, null);
+        }
+        
+        /// <remarks/>
+        public void CheckDuplicateVendorAdminAsync(string vendorName, string email, object userState) {
+            if ((this.CheckDuplicateVendorAdminOperationCompleted == null)) {
+                this.CheckDuplicateVendorAdminOperationCompleted = new System.Threading.SendOrPostCallback(this.OnCheckDuplicateVendorAdminOperationCompleted);
+            }
+            this.InvokeAsync("CheckDuplicateVendorAdmin", new object[] {
+                        vendorName,
+                        email}, this.CheckDuplicateVendorAdminOperationCompleted, userState);
+        }
+        
+        private void OnCheckDuplicateVendorAdminOperationCompleted(object arg) {
+            if ((this.CheckDuplicateVendorAdminCompleted != null)) {
+                System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+                this.CheckDuplicateVendorAdminCompleted(this, new CheckDuplicateVendorAdminCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+            }
+        }
+        
+        /// <remarks/>
         public new void CancelAsync(object userState) {
             base.CancelAsync(userState);
         }
@@ -446,11 +482,11 @@ namespace SmsPortalForms.SMSPORTALAPI {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9037.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9032.0")]
     public delegate void LoginSystemOperatorCompletedEventHandler(object sender, LoginSystemOperatorCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9037.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9032.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class LoginSystemOperatorCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -472,15 +508,15 @@ namespace SmsPortalForms.SMSPORTALAPI {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9037.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9032.0")]
     public delegate void sp_CreateVendorAdminCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9037.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9032.0")]
     public delegate void LoginVendorAdminCompletedEventHandler(object sender, LoginVendorAdminCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9037.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9032.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class LoginVendorAdminCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -502,11 +538,11 @@ namespace SmsPortalForms.SMSPORTALAPI {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9037.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9032.0")]
     public delegate void CreateVendorUserCompletedEventHandler(object sender, CreateVendorUserCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9037.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9032.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class CreateVendorUserCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -528,11 +564,11 @@ namespace SmsPortalForms.SMSPORTALAPI {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9037.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9032.0")]
     public delegate void ValidateVendorUserByEmailCompletedEventHandler(object sender, ValidateVendorUserByEmailCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9037.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9032.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ValidateVendorUserByEmailCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -554,11 +590,11 @@ namespace SmsPortalForms.SMSPORTALAPI {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9037.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9032.0")]
     public delegate void GetAllVendorAdminsCompletedEventHandler(object sender, GetAllVendorAdminsCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9037.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9032.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetAllVendorAdminsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -580,19 +616,19 @@ namespace SmsPortalForms.SMSPORTALAPI {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9037.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9032.0")]
     public delegate void DeleteVendorAdminCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9037.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9032.0")]
     public delegate void UnlockVendorAdminCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9037.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9032.0")]
     public delegate void GetVendorAdminByIdCompletedEventHandler(object sender, GetVendorAdminByIdCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9037.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9032.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetVendorAdminByIdCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -614,8 +650,34 @@ namespace SmsPortalForms.SMSPORTALAPI {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9037.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9032.0")]
     public delegate void UpdateVendorAdminCompletedEventHandler(object sender, System.ComponentModel.AsyncCompletedEventArgs e);
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9032.0")]
+    public delegate void CheckDuplicateVendorAdminCompletedEventHandler(object sender, CheckDuplicateVendorAdminCompletedEventArgs e);
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9032.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    public partial class CheckDuplicateVendorAdminCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        internal CheckDuplicateVendorAdminCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        /// <remarks/>
+        public string Result {
+            get {
+                this.RaiseExceptionIfNecessary();
+                return ((string)(this.results[0]));
+            }
+        }
+    }
 }
 
 #pragma warning restore 1591

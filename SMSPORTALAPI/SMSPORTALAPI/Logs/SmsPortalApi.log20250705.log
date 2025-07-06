@@ -1,0 +1,2 @@
+2025-07-05 23:45:55,455 [27] INFO  SMSPORTALAPI.SmsportalApi - Starting sp_CreateVendorAdmin for vendorName=AMOOTI, email=willyamooti80@gmail.com
+2025-07-05 23:45:55,654 [27] INFO  SMSPORTALAPI.SmsportalApi - sp_CreateVendorAdmin result: Vendor admin created successfully.

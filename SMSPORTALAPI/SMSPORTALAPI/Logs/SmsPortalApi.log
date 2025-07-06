@@ -1,0 +1,10 @@
+2025-07-06 21:21:17,662 [13] INFO  SMSPORTALAPI.SmsportalApi - Starting sp_CreateVendorAdmin for vendorName=KCEE, email=willygafabusa55@gmail.com
+2025-07-06 21:21:17,732 [13] INFO  SMSPORTALAPI.SmsportalApi - sp_CreateVendorAdmin result: Username is already taken.
+2025-07-06 21:42:00,421 [25] INFO  SMSPORTALAPI.SmsportalApi - Starting sp_CreateVendorAdmin for vendorName=KCEE, email=daka@gmail.com
+2025-07-06 21:42:00,464 [25] INFO  SMSPORTALAPI.SmsportalApi - sp_CreateVendorAdmin result: Username is already taken.
+2025-07-06 21:56:22,019 [33] INFO  SMSPORTALAPI.SmsportalApi - Starting sp_CreateVendorAdmin for vendorName=DFCU66, email=dfcu55@gmail.com
+2025-07-06 21:56:22,063 [33] INFO  SMSPORTALAPI.SmsportalApi - sp_CreateVendorAdmin result: Vendor admin created successfully.
+2025-07-06 22:36:51,060 [38] INFO  SMSPORTALAPI.SmsportalApi - Starting sp_CreateVendorAdmin for vendorName=DFCU88, email=dfcu558@gmail.com
+2025-07-06 22:36:51,122 [38] INFO  SMSPORTALAPI.SmsportalApi - sp_CreateVendorAdmin result: Vendor admin created successfully.
+2025-07-06 22:42:44,238 [18] INFO  SMSPORTALAPI.SmsportalApi - Starting sp_CreateVendorAdmin for vendorName=Pcee Kcee, email=amootiwilly80@gmail.com
+2025-07-06 22:42:44,283 [18] INFO  SMSPORTALAPI.SmsportalApi - sp_CreateVendorAdmin result: Vendor admin created successfully.

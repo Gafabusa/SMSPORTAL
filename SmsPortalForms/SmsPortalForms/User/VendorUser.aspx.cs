@@ -87,8 +87,7 @@ namespace SmsPortalForms.User
             {
                 // Store form data in labels
                 lblDisplaySmsType.Text = rblSmsType.SelectedItem.Text;
-                lblDisplayDeliveryType.Text = rblDeliveryType.SelectedItem.Text;
-                lblDisplayPhoneNumber.Text = rblDeliveryType.SelectedValue == "Single" ? txtPhoneNumber.Text : "Bulk SMS";
+                lblDisplayDeliveryType.Text = rblDeliveryType.SelectedItem.Text;             
                 lblDisplayMessage.Text = txtMessage.Text;
 
                 // Show/hide file upload based on delivery type

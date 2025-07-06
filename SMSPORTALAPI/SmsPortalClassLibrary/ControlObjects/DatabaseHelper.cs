@@ -142,6 +142,49 @@ namespace SmsPortalClassLibrary.ControlObjects
             db.AddInParameter(cmd, "@Email", DbType.String, email);
             db.ExecuteNonQuery(cmd);
         }
+        //check for duplicate vendor admin email and username
+        public string CheckDuplicateVendor(string vendorName, string email)
+        {
+            string result = "OK";
+
+            using (DbCommand cmd = db.GetStoredProcCommand("sp_CheckDuplicateVendorAdmin"))
+            {
+                db.AddInParameter(cmd, "@VendorName", DbType.String, vendorName);
+                db.AddInParameter(cmd, "@Email", DbType.String, email);
+
+                using (IDataReader reader = db.ExecuteReader(cmd))
+                {
+                    if (reader.Read())
+                    {
+                        result = reader["Result"].ToString();
+                    }
+                }
+            }
+
+            return result;
+        }
+        // Check for duplicate vendor user email and username
+        public string CheckDuplicateVendorUser(string username, string email)
+        {
+            string result = "Available";
+
+            using (DbCommand cmd = db.GetStoredProcCommand("sp_CheckDuplicateVendorUser"))
+            {
+                db.AddInParameter(cmd, "@Username", DbType.String, username);
+                db.AddInParameter(cmd, "@Email", DbType.String, email);
+
+                using (IDataReader reader = db.ExecuteReader(cmd))
+                {
+                    if (reader.Read())
+                    {
+                        result = reader["Result"].ToString();
+                    }
+                }
+            }
+
+            return result;
+        }
+
 
 
     }

@@ -73,6 +73,18 @@ namespace SmsPortalClassLibrary.ControlObjects
         {
             db.UpdateVendorAdmin(vendorId, vendorName, userName, email);
         }
+        //check for duplicate vendor admin email and username
+        public string CheckDuplicateVendor(string vendorName, string email)
+        {
+            return db.CheckDuplicateVendor(vendorName, email);
+        }
+        // Check for duplicate vendor user email and username
+        public string CheckDuplicateVendorUser(string username, string email)
+        {
+            return db.CheckDuplicateVendorUser(username, email);
+        }
+
+
 
 
 
