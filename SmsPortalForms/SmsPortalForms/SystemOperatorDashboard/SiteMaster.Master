@@ -22,13 +22,13 @@
         </div>
 
         <!-- Sidebar -->
-        <div class="sidebar">
- <a href="/SystemOperatorDashboard/OperatorDashboard.aspx" class="sidebar-item">Dashboard</a>
+<div class="sidebar">
+<a href="/SystemOperatorDashboard/OperatorDashboard.aspx" class="sidebar-item">Dashboard</a>
 <a href="/SystemOperatorDashboard/ManageVendors/ViewVendorAdmins.aspx" class="sidebar-item">Vendor Management</a>
-    <a href="#" class="sidebar-item">User Management</a>
-      <a href="#" class="sidebar-item">SMS Analytics</a>
-            <a href="#" class="sidebar-item">System Settings</a>
-        </div>
+<a href="#" class="sidebar-item">User Management</a>
+<a href="#" class="sidebar-item">SMS Analytics</a>
+<a href="#" class="sidebar-item">System Settings</a>
+</div>
 
         <!-- Main Content -->
         <div class="main-content">

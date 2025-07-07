@@ -88,6 +88,9 @@
                         <label class="form-label">Password</label>
                         <asp:TextBox ID="txtUserPassword" runat="server" CssClass="form-input" TextMode="Password" placeholder="Enter password" />
                     </div>
+           <asp:HiddenField ID="hdnShowUserModal" runat="server" Value="false" />
+           <asp:Label ID="lblUserMessage" runat="server" CssClass="message-label" />
+
                     <asp:Button ID="btnCreateUser" runat="server" Text="Create User" OnClick="btnCreateUser_Click" CssClass="btn-submit" />
                 </div>
             </div>
@@ -96,11 +99,16 @@
 
     <script type="text/javascript">
         function openUserModal() {
-            document.getElementById('userModal').style.display = 'block';
-        }
+            document.getElementById('userModal').style.display = 'block';       
+            }       
 
         function closeUserModal() {
             document.getElementById('userModal').style.display = 'none';
+            // Clear message and styles after fade-out
+            setTimeout(function () {
+                document.getElementById('<%= lblUserMessage.ClientID %>').innerHTML = '';
+        document.getElementById('<%= lblUserMessage.ClientID %>').className = 'message-label';
+    }, 500); // wait a bit after closing to clear
         }
 
         window.onclick = function (event) {

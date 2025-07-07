@@ -1,34 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\WillyTech\\Desktop\\SMSPORTAL\\SmsPortalForms\\",
+  "WorkspaceRootPath": "C:\\Users\\Willy Gafabusa\\Desktop\\SMSPORTAL\\SmsPortalForms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|C:\\Users\\WillyTech\\Desktop\\SMSPORTAL\\SmsPortalForms\\smsportalforms\\login\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|solutionrelative:smsportalforms\\login\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|c:\\users\\willytech\\desktop\\smsportal\\smsportalforms\\smsportalforms\\systemoperatordashboard\\dashboard-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|c:\\users\\willy gafabusa\\desktop\\smsportal\\smsportalforms\\smsportalforms\\systemoperatordashboard\\dashboard-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|solutionrelative:smsportalforms\\systemoperatordashboard\\dashboard-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|C:\\Users\\WillyTech\\Desktop\\SMSPORTAL\\SmsPortalForms\\smsportalforms\\systemoperatordashboard\\operatordashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|solutionrelative:smsportalforms\\systemoperatordashboard\\operatordashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|c:\\users\\willy gafabusa\\desktop\\smsportal\\smsportalforms\\smsportalforms\\user\\vendoruser.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|solutionrelative:smsportalforms\\user\\vendoruser.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|C:\\Users\\WillyTech\\Desktop\\SMSPORTAL\\SmsPortalForms\\smsportalforms\\systemoperatordashboard\\operatordashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|solutionrelative:smsportalforms\\systemoperatordashboard\\operatordashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|c:\\users\\willy gafabusa\\desktop\\smsportal\\smsportalforms\\smsportalforms\\user\\vendoruser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|solutionrelative:smsportalforms\\user\\vendoruser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|c:\\users\\willytech\\desktop\\smsportal\\smsportalforms\\smsportalforms\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|solutionrelative:smsportalforms\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|c:\\users\\willy gafabusa\\desktop\\smsportal\\smsportalforms\\smsportalforms\\systemoperatordashboard\\sitemaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|solutionrelative:smsportalforms\\systemoperatordashboard\\sitemaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|c:\\users\\willytech\\desktop\\smsportal\\smsportalforms\\smsportalforms\\login\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|solutionrelative:smsportalforms\\login\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|c:\\users\\willy gafabusa\\desktop\\smsportal\\smsportalforms\\smsportalforms\\systemoperatordashboard\\sitemaster.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|solutionrelative:smsportalforms\\systemoperatordashboard\\sitemaster.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|C:\\Users\\WillyTech\\Desktop\\SMSPORTAL\\SmsPortalForms\\smsportalforms\\user\\vendoruser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|solutionrelative:smsportalforms\\user\\vendoruser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|C:\\Users\\Willy Gafabusa\\Desktop\\SMSPORTAL\\SmsPortalForms\\smsportalforms\\login\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{04F4433C-25C7-4789-8769-0E8D9ECBCE01}|SmsPortalForms\\SmsPortalForms.csproj|solutionrelative:smsportalforms\\login\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,102 +34,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "dashboard-styles.css",
-              "DocumentMoniker": "C:\\Users\\WillyTech\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\SystemOperatorDashboard\\dashboard-styles.css",
-              "RelativeDocumentMoniker": "SmsPortalForms\\SystemOperatorDashboard\\dashboard-styles.css",
-              "ToolTip": "C:\\Users\\WillyTech\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\SystemOperatorDashboard\\dashboard-styles.css",
-              "RelativeToolTip": "SmsPortalForms\\SystemOperatorDashboard\\dashboard-styles.css",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAVAAAAAAAAAA==",
+              "Title": "VendorUser.css",
+              "DocumentMoniker": "C:\\Users\\Willy Gafabusa\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\User\\VendorUser.css",
+              "RelativeDocumentMoniker": "SmsPortalForms\\User\\VendorUser.css",
+              "ToolTip": "C:\\Users\\Willy Gafabusa\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\User\\VendorUser.css",
+              "RelativeToolTip": "SmsPortalForms\\User\\VendorUser.css",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAwHQAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-07-06T19:11:40.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.aspx",
-              "DocumentMoniker": "C:\\Users\\WillyTech\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\Login\\Login.aspx",
-              "RelativeDocumentMoniker": "SmsPortalForms\\Login\\Login.aspx",
-              "ToolTip": "C:\\Users\\WillyTech\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\Login\\Login.aspx",
-              "RelativeToolTip": "SmsPortalForms\\Login\\Login.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-30T02:53:15.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\WillyTech\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\Login\\Login.aspx.cs",
-              "RelativeDocumentMoniker": "SmsPortalForms\\Login\\Login.aspx.cs",
-              "ToolTip": "C:\\Users\\WillyTech\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\Login\\Login.aspx.cs",
-              "RelativeToolTip": "SmsPortalForms\\Login\\Login.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T17:37:41.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\WillyTech\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\Web.config",
-              "RelativeDocumentMoniker": "SmsPortalForms\\Web.config",
-              "ToolTip": "C:\\Users\\WillyTech\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\Web.config",
-              "RelativeToolTip": "SmsPortalForms\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-07-06T17:16:44.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OperatorDashboard.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\WillyTech\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\SystemOperatorDashboard\\OperatorDashboard.aspx.cs",
-              "RelativeDocumentMoniker": "SmsPortalForms\\SystemOperatorDashboard\\OperatorDashboard.aspx.cs",
-              "ToolTip": "C:\\Users\\WillyTech\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\SystemOperatorDashboard\\OperatorDashboard.aspx.cs",
-              "RelativeToolTip": "SmsPortalForms\\SystemOperatorDashboard\\OperatorDashboard.aspx.cs",
-              "ViewState": "AgIAAAEAAAAAXmZmZuYcwA4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T20:46:37.344Z",
+              "WhenOpened": "2025-07-07T10:19:18.398Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "OperatorDashboard.aspx",
-              "DocumentMoniker": "C:\\Users\\WillyTech\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\SystemOperatorDashboard\\OperatorDashboard.aspx",
-              "RelativeDocumentMoniker": "SmsPortalForms\\SystemOperatorDashboard\\OperatorDashboard.aspx",
-              "ToolTip": "C:\\Users\\WillyTech\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\SystemOperatorDashboard\\OperatorDashboard.aspx",
-              "RelativeToolTip": "SmsPortalForms\\SystemOperatorDashboard\\OperatorDashboard.aspx",
+              "Title": "VendorUser.aspx",
+              "DocumentMoniker": "C:\\Users\\Willy Gafabusa\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\User\\VendorUser.aspx",
+              "RelativeDocumentMoniker": "SmsPortalForms\\User\\VendorUser.aspx",
+              "ToolTip": "C:\\Users\\Willy Gafabusa\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\User\\VendorUser.aspx",
+              "RelativeToolTip": "SmsPortalForms\\User\\VendorUser.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-07-05T20:44:33.5Z",
+              "WhenOpened": "2025-07-07T10:19:31.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "VendorUser.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\WillyTech\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\User\\VendorUser.aspx.cs",
-              "RelativeDocumentMoniker": "SmsPortalForms\\User\\VendorUser.aspx.cs",
-              "ToolTip": "C:\\Users\\WillyTech\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\User\\VendorUser.aspx.cs",
-              "RelativeToolTip": "SmsPortalForms\\User\\VendorUser.aspx.cs",
-              "ViewState": "AgIAAEcAAAAAYmZmZuYuwFIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "SiteMaster.Master.cs",
+              "DocumentMoniker": "C:\\Users\\Willy Gafabusa\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\SystemOperatorDashboard\\SiteMaster.Master.cs",
+              "RelativeDocumentMoniker": "SmsPortalForms\\SystemOperatorDashboard\\SiteMaster.Master.cs",
+              "ToolTip": "C:\\Users\\Willy Gafabusa\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\SystemOperatorDashboard\\SiteMaster.Master.cs",
+              "RelativeToolTip": "SmsPortalForms\\SystemOperatorDashboard\\SiteMaster.Master.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T15:10:05.02Z",
+              "WhenOpened": "2025-07-07T10:17:59.09Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SiteMaster.Master",
+              "DocumentMoniker": "C:\\Users\\Willy Gafabusa\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\SystemOperatorDashboard\\SiteMaster.Master",
+              "RelativeDocumentMoniker": "SmsPortalForms\\SystemOperatorDashboard\\SiteMaster.Master",
+              "ToolTip": "C:\\Users\\Willy Gafabusa\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\SystemOperatorDashboard\\SiteMaster.Master*",
+              "RelativeToolTip": "SmsPortalForms\\SystemOperatorDashboard\\SiteMaster.Master*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-07T10:17:52.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dashboard-styles.css",
+              "DocumentMoniker": "C:\\Users\\Willy Gafabusa\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\SystemOperatorDashboard\\dashboard-styles.css",
+              "RelativeDocumentMoniker": "SmsPortalForms\\SystemOperatorDashboard\\dashboard-styles.css",
+              "ToolTip": "C:\\Users\\Willy Gafabusa\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\SystemOperatorDashboard\\dashboard-styles.css*",
+              "RelativeToolTip": "SmsPortalForms\\SystemOperatorDashboard\\dashboard-styles.css*",
+              "ViewState": "AgIAAFEAAAAAAAAAAADwv2wAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-07T10:15:54.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\Willy Gafabusa\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\Login\\Login.aspx",
+              "RelativeDocumentMoniker": "SmsPortalForms\\Login\\Login.aspx",
+              "ToolTip": "C:\\Users\\Willy Gafabusa\\Desktop\\SMSPORTAL\\SmsPortalForms\\SmsPortalForms\\Login\\Login.aspx",
+              "RelativeToolTip": "SmsPortalForms\\Login\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-30T02:53:15.705Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 16,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f677620d-05fd-48ed-8423-72a12db4deef}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

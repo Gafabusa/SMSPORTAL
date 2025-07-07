@@ -22,8 +22,18 @@ namespace SmsPortalForms.VendorAdminDashboard
                 LoadDashboardData();
                 RegisterUserModalScripts();
             }
-
-        }
+            if (hdnShowUserModal.Value == "true")
+            {
+                string script = @"
+        setTimeout(function () {
+            openUserModal();
+            setTimeout(function () {
+                closeUserModal();
+            }, 6000);
+        }, 100);";
+ClientScript.RegisterStartupScript(this.GetType(), "ShowUserModalWithFadeOut", script, true); hdnShowUserModal.Value = "false";
+ }
+}
 
         private void LoadDashboardData()
         {
@@ -97,7 +107,9 @@ namespace SmsPortalForms.VendorAdminDashboard
 
             if (password.Length < 6 || !password.Any(char.IsLetter) || !password.Any(char.IsDigit))
             {
-                // Optionally: show error message
+                lblUserMessage.Text = "Password must be at least 6 characters long and contain both letters and numbers.";
+                lblUserMessage.CssClass = "message-label error-message";
+                hdnShowUserModal.Value = "true";
                 return;
             }
 
@@ -106,39 +118,50 @@ namespace SmsPortalForms.VendorAdminDashboard
 
             try
             {
+                var api = new SMSPORTALAPI.SmsportalApi();
+                string checkResult = api.CheckDuplicateVendorUser(username, email);
+
+                if (checkResult == "UsernameExists")
+                {
+                    lblUserMessage.Text = "Username already exists.";
+                    lblUserMessage.CssClass = "message-label error-message";
+                    hdnShowUserModal.Value = "true";
+                    return;
+                }
+                else if (checkResult == "EmailExists") 
+                {
+                    lblUserMessage.Text = "Email already exists.";
+                    lblUserMessage.CssClass = "message-label error-message";
+                    hdnShowUserModal.Value = "true";
+                    return;
+                }
+
+                // Hash password
                 byte[] passwordHash;
                 using (var sha = new System.Security.Cryptography.SHA256Managed())
                 {
                     passwordHash = sha.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
                 }
 
-                var api = new SMSPORTALAPI.SmsportalApi();
+                // Create vendor user
                 string result = api.CreateVendorUser(vendorName, username, email, passwordHash);
-                // 1. Prepare email content
-                string subject = "Your Vendor User Account Has Been Created \n";
-                string body = $@"  Dear {username},\n Your vendor user account has been successfully created. \n You can now log in using the following credentials:
 
-                Email: {email}
-                Password: {password}
-                Regards,  
-                SMS Portal Team
-                ";
+                // Send email
+                SendEmail(email, "Your Vendor User Account Has Been Created",
+       $"Dear {username},\nYour Vedor user account has been created successfully.\nYou can login with the following credentials please" +
+                    $"\nEmail: {email}\nPassword: {password}");
 
-                // 2. Send email
-                SendEmail(email, subject, body);
-
-                // 3. Clear form fields
-
-                System.Diagnostics.Debug.WriteLine("Vendor User Creation Result: " + result);
-                ScriptManager.RegisterStartupScript(this, GetType(), "alertMessage", $"alert('{result}');", true);
-
-                System.Diagnostics.Debug.WriteLine(result);
+                // Show success message
+                lblUserMessage.Text = "Vendor user created successfully.";
+                lblUserMessage.CssClass = "message-label success-message";
+                hdnShowUserModal.Value = "true";
 
                 // Clear form fields
                 txtUserUsername.Text = "";
                 txtUserEmail.Text = "";
                 txtUserPassword.Text = "";
             }
+
             catch (Exception ex)
             {
                 System.Diagnostics.Debug.WriteLine("Error creating vendor user: " + ex.Message);

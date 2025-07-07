@@ -28,6 +28,7 @@ body {
     color: #10b981; /* Green */
 }
 
+
 /* Header Styles */
 .header {
     background: rgba(255, 255, 255, 0.98);
@@ -105,7 +106,7 @@ body {
     left: 0;
     width: 220px;
     height: calc(100vh - 65px);
-    background: rgba(255, 255, 255, 0.98);
+    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
     backdrop-filter: blur(12px);
     box-shadow: 2px 0 12px rgba(0, 0, 0, 0.08);
     padding: 24px 0;
@@ -116,7 +117,7 @@ body {
 .sidebar-item {
     display: block;
     padding: 14px 24px;
-    color: #6b7280;
+    color: #cbd5e1;
     text-decoration: none;
     transition: all 0.2s ease;
     border-left: 3px solid transparent;
